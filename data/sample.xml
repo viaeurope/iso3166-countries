@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<country-codes generated="2021-03-01T15:23:08.949836+01:00">
+   <country id="BR" version="72">
+      <alpha-2-code>BR</alpha-2-code>
+      <alpha-3-code>BRA</alpha-3-code>
+      <numeric-code>076</numeric-code>
+      <independent>YES</independent>
+      <status>officially-assigned</status>
+      <full-name lang3code="eng" xml:lang="en">the Federative Republic of Brazil</full-name>
+      <full-name lang3code="fra" xml:lang="fr">la République fédérative du Brésil</full-name>
+      <short-name lang3code="eng" xml:lang="en">Brazil</short-name>
+      <short-name lang3code="fra" xml:lang="fr">Brésil (le)</short-name>
+      <short-name lang3code="por" xml:lang="pt">Brasil (o)</short-name>
+      <short-name-upper-case lang3code="eng" xml:lang="en">BRAZIL</short-name-upper-case>
+      <short-name-upper-case lang3code="fra" xml:lang="fr">BRÉSIL</short-name-upper-case>
+      <short-name-upper-case lang3code="por" xml:lang="pt">Brasil (o)</short-name-upper-case>
+      <language>
+         <language-alpha-2-code>en</language-alpha-2-code>
+         <language-alpha-3-code>eng</language-alpha-3-code>
+         <language-is-administrative>NO</language-is-administrative>
+      </language>
+      <language>
+         <language-alpha-2-code>fr</language-alpha-2-code>
+         <language-alpha-3-code>fra</language-alpha-3-code>
+         <language-is-administrative>NO</language-is-administrative>
+      </language>
+      <language>
+         <language-alpha-2-code>pt</language-alpha-2-code>
+         <language-alpha-3-code>por</language-alpha-3-code>
+         <language-is-administrative>YES</language-is-administrative>
+      </language>
+      <territory id="1060">
+         <territory-name lang3code="eng" xml:lang="en">Fernando de Noronha Island</territory-name>
+         <territory-name lang3code="fra" xml:lang="fr">l'Île Fernando de Noronha</territory-name>
+      </territory>
+      <territory id="1123">
+         <territory-name lang3code="eng" xml:lang="en">Martim Vaz Islands</territory-name>
+         <territory-name lang3code="fra" xml:lang="fr">les Îles Martim Vaz</territory-name>
+      </territory>
+      <territory id="1212">
+         <territory-name lang3code="eng" xml:lang="en">Trindade Island</territory-name>
+         <territory-name lang3code="fra" xml:lang="fr">l'Île de Trindade</territory-name>
+      </territory>
+      <category id="193">
+         <category-name lang3code="eng" xml:lang="en">state</category-name>
+         <category-name lang3code="fra" xml:lang="fr">État</category-name>
+         <category-name lang3code="por" xml:lang="pt">estado</category-name>
+         <category-name-plural lang3code="eng" xml:lang="en">states</category-name-plural>
+      </category>
+      <category id="403">
+         <category-name lang3code="eng" xml:lang="en">federal district</category-name>
+         <category-name lang3code="fra" xml:lang="fr">district fédéral</category-name>
+         <category-name lang3code="por" xml:lang="pt">distrito federal</category-name>
+      </category>
+      <subdivision category-id="193">
+         <subdivision-code>BR-AC</subdivision-code>
+         <subdivision-locale lang3code="por" xml:lang="pt">
+            <subdivision-locale-name>Acre</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="193">
+         <subdivision-code>BR-AL</subdivision-code>
+         <subdivision-locale lang3code="por" xml:lang="pt">
+            <subdivision-locale-name>Alagoas</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="193">
+         <subdivision-code>BR-AM</subdivision-code>
+         <subdivision-locale lang3code="por" xml:lang="pt">
+            <subdivision-locale-name>Amazonas</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="193">
+         <subdivision-code>BR-AP</subdivision-code>
+         <subdivision-locale lang3code="por" xml:lang="pt">
+            <subdivision-locale-name>Amapá</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="193">
+         <subdivision-code>BR-BA</subdivision-code>
+         <subdivision-locale lang3code="por" xml:lang="pt">
+            <subdivision-locale-name>Bahia</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="193">
+         <subdivision-code>BR-CE</subdivision-code>
+         <subdivision-locale lang3code="por" xml:lang="pt">
+            <subdivision-locale-name>Ceará</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="193">
+         <subdivision-code>BR-ES</subdivision-code>
+         <subdivision-locale lang3code="por" xml:lang="pt">
+            <subdivision-locale-name>Espírito Santo</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="193">
+         <subdivision-code>BR-GO</subdivision-code>
+         <subdivision-locale lang3code="por" xml:lang="pt">
+            <subdivision-locale-name>Goiás</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="193">
+         <subdivision-code>BR-MA</subdivision-code>
+         <subdivision-locale lang3code="por" xml:lang="pt">
+            <subdivision-locale-name>Maranhão</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="193">
+         <subdivision-code>BR-MG</subdivision-code>
+         <subdivision-locale lang3code="por" xml:lang="pt">
+            <subdivision-locale-name>Minas Gerais</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="193">
+         <subdivision-code>BR-MS</subdivision-code>
+         <subdivision-locale lang3code="por" xml:lang="pt">
+            <subdivision-locale-name>Mato Grosso do Sul</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="193">
+         <subdivision-code>BR-MT</subdivision-code>
+         <subdivision-locale lang3code="por" xml:lang="pt">
+            <subdivision-locale-name>Mato Grosso</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="193">
+         <subdivision-code>BR-PA</subdivision-code>
+         <subdivision-locale lang3code="por" xml:lang="pt">
+            <subdivision-locale-name>Pará</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="193">
+         <subdivision-code>BR-PB</subdivision-code>
+         <subdivision-locale lang3code="por" xml:lang="pt">
+            <subdivision-locale-name>Paraíba</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="193">
+         <subdivision-code>BR-PE</subdivision-code>
+         <subdivision-locale lang3code="por" xml:lang="pt">
+            <subdivision-locale-name>Pernambuco</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="193">
+         <subdivision-code>BR-PI</subdivision-code>
+         <subdivision-locale lang3code="por" xml:lang="pt">
+            <subdivision-locale-name>Piauí</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="193">
+         <subdivision-code>BR-PR</subdivision-code>
+         <subdivision-locale lang3code="por" xml:lang="pt">
+            <subdivision-locale-name>Paraná</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="193">
+         <subdivision-code>BR-RJ</subdivision-code>
+         <subdivision-locale lang3code="por" xml:lang="pt">
+            <subdivision-locale-name>Rio de Janeiro</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="193">
+         <subdivision-code>BR-RN</subdivision-code>
+         <subdivision-locale lang3code="por" xml:lang="pt">
+            <subdivision-locale-name>Rio Grande do Norte</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="193">
+         <subdivision-code>BR-RO</subdivision-code>
+         <subdivision-locale lang3code="por" xml:lang="pt">
+            <subdivision-locale-name>Rondônia</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="193">
+         <subdivision-code>BR-RR</subdivision-code>
+         <subdivision-locale lang3code="por" xml:lang="pt">
+            <subdivision-locale-name>Roraima</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="193">
+         <subdivision-code>BR-RS</subdivision-code>
+         <subdivision-locale lang3code="por" xml:lang="pt">
+            <subdivision-locale-name>Rio Grande do Sul</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="193">
+         <subdivision-code>BR-SC</subdivision-code>
+         <subdivision-locale lang3code="por" xml:lang="pt">
+            <subdivision-locale-name>Santa Catarina</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="193">
+         <subdivision-code>BR-SE</subdivision-code>
+         <subdivision-locale lang3code="por" xml:lang="pt">
+            <subdivision-locale-name>Sergipe</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="193">
+         <subdivision-code>BR-SP</subdivision-code>
+         <subdivision-locale lang3code="por" xml:lang="pt">
+            <subdivision-locale-name>São Paulo</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="193">
+         <subdivision-code>BR-TO</subdivision-code>
+         <subdivision-locale lang3code="por" xml:lang="pt">
+            <subdivision-locale-name>Tocantins</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="403">
+         <subdivision-code>BR-DF</subdivision-code>
+         <subdivision-locale lang3code="por" xml:lang="pt">
+            <subdivision-locale-name>Distrito Federal</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <list-source>Brazilian EDIFACT Board, 1995-06-19; IGN 1989 update BET 1996; http://www.ibge.gov.br/estadosat/</list-source>
+      <code-source>VARIG</code-source>
+      <remark-part-1 lang3code="eng" xml:lang="en">Includes: Fernando de Noronha Island, Martim Vaz Islands, Trindade Island.</remark-part-1>
+      <remark-part-1 lang3code="fra" xml:lang="fr">Y compris: l'Île Fernando de Noronha, les Îles Martim Vaz, l'Île de Trindade.</remark-part-1>
+      <change>
+         <change-date>2020-11-24</change-date>
+         <change-affected-part>3166-2</change-affected-part>
+         <change-type>Update</change-type>
+         <change-description xml:lang="en">Correction of the Code Source</change-description>
+         <change-description xml:lang="fr">Correction du Code Source</change-description>
+      </change>
+      <change>
+         <change-date>2016-11-15</change-date>
+         <change-affected-part>3166-2</change-affected-part>
+         <change-type>Update</change-type>
+         <change-description xml:lang="en">Deletion of asterisk from state BR-TO; update list source</change-description>
+         <change-description xml:lang="fr">Suppression de l’astérisque de État BR-TO; mise à jour de la Liste Source</change-description>
+      </change>
+   </country>
+   <country id="CH" version="72">
+      <alpha-2-code>CH</alpha-2-code>
+      <alpha-3-code>CHE</alpha-3-code>
+      <numeric-code>756</numeric-code>
+      <independent>YES</independent>
+      <status>officially-assigned</status>
+      <full-name lang3code="eng" xml:lang="en">the Swiss Confederation</full-name>
+      <full-name lang3code="fra" xml:lang="fr">la Confédération suisse</full-name>
+      <short-name lang3code="deu" xml:lang="de">Schweiz (die)</short-name>
+      <short-name lang3code="eng" xml:lang="en">Switzerland</short-name>
+      <short-name lang3code="fra" xml:lang="fr">Suisse (la)</short-name>
+      <short-name lang3code="ita" xml:lang="it">Svizzera (la)</short-name>
+      <short-name lang3code="roh" xml:lang="rm">Svizra (la)</short-name>
+      <short-name-upper-case lang3code="deu" xml:lang="de">Schweiz (die)</short-name-upper-case>
+      <short-name-upper-case lang3code="eng" xml:lang="en">SWITZERLAND</short-name-upper-case>
+      <short-name-upper-case lang3code="fra" xml:lang="fr">SUISSE</short-name-upper-case>
+      <short-name-upper-case lang3code="ita" xml:lang="it">Svizzera (la)</short-name-upper-case>
+      <short-name-upper-case lang3code="roh" xml:lang="rm">Svizra (la)</short-name-upper-case>
+      <language>
+         <language-alpha-2-code>de</language-alpha-2-code>
+         <language-alpha-3-code>deu</language-alpha-3-code>
+         <language-is-administrative>YES</language-is-administrative>
+      </language>
+      <language>
+         <language-alpha-2-code>en</language-alpha-2-code>
+         <language-alpha-3-code>eng</language-alpha-3-code>
+         <language-is-administrative>NO</language-is-administrative>
+      </language>
+      <language>
+         <language-alpha-2-code>fr</language-alpha-2-code>
+         <language-alpha-3-code>fra</language-alpha-3-code>
+         <language-is-administrative>YES</language-is-administrative>
+      </language>
+      <language>
+         <language-alpha-2-code>it</language-alpha-2-code>
+         <language-alpha-3-code>ita</language-alpha-3-code>
+         <language-is-administrative>YES</language-is-administrative>
+      </language>
+      <language>
+         <language-alpha-2-code>rm</language-alpha-2-code>
+         <language-alpha-3-code>roh</language-alpha-3-code>
+         <language-is-administrative>YES</language-is-administrative>
+      </language>
+      <category id="153">
+         <category-name lang3code="deu" xml:lang="de">Kanton</category-name>
+         <category-name lang3code="eng" xml:lang="en">canton</category-name>
+         <category-name lang3code="fra" xml:lang="fr">canton</category-name>
+         <category-name lang3code="ita" xml:lang="it">cantone</category-name>
+         <category-name lang3code="roh" xml:lang="rm">chantun</category-name>
+         <category-name-plural lang3code="eng" xml:lang="en">cantons</category-name-plural>
+      </category>
+      <subdivision category-id="153">
+         <subdivision-code>CH-AG</subdivision-code>
+         <subdivision-locale lang3code="deu" xml:lang="de">
+            <subdivision-locale-name>Aargau</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="153">
+         <subdivision-code>CH-AI</subdivision-code>
+         <subdivision-locale lang3code="deu" xml:lang="de">
+            <subdivision-locale-name>Appenzell Innerrhoden</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="153">
+         <subdivision-code>CH-AR</subdivision-code>
+         <subdivision-locale lang3code="deu" xml:lang="de">
+            <subdivision-locale-name>Appenzell Ausserrhoden</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="153">
+         <subdivision-code>CH-BE</subdivision-code>
+         <subdivision-locale lang3code="deu" xml:lang="de">
+            <subdivision-locale-name>Bern</subdivision-locale-name>
+         </subdivision-locale>
+         <subdivision-locale lang3code="fra" xml:lang="fr">
+            <subdivision-locale-name>Berne</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="153">
+         <subdivision-code>CH-BL</subdivision-code>
+         <subdivision-locale lang3code="deu" xml:lang="de">
+            <subdivision-locale-name>Basel-Landschaft</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="153">
+         <subdivision-code>CH-BS</subdivision-code>
+         <subdivision-locale lang3code="deu" xml:lang="de">
+            <subdivision-locale-name>Basel-Stadt</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="153">
+         <subdivision-code>CH-FR</subdivision-code>
+         <subdivision-locale lang3code="deu" xml:lang="de">
+            <subdivision-locale-name>Freiburg</subdivision-locale-name>
+         </subdivision-locale>
+         <subdivision-locale lang3code="fra" xml:lang="fr">
+            <subdivision-locale-name>Fribourg</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="153">
+         <subdivision-code>CH-GE</subdivision-code>
+         <subdivision-locale lang3code="fra" xml:lang="fr">
+            <subdivision-locale-name>Genève</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="153">
+         <subdivision-code>CH-GL</subdivision-code>
+         <subdivision-locale lang3code="deu" xml:lang="de">
+            <subdivision-locale-name>Glarus</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="153">
+         <subdivision-code>CH-GR</subdivision-code>
+         <subdivision-locale lang3code="deu" xml:lang="de">
+            <subdivision-locale-name>Graubünden</subdivision-locale-name>
+         </subdivision-locale>
+         <subdivision-locale lang3code="ita" xml:lang="it">
+            <subdivision-locale-name>Grigioni</subdivision-locale-name>
+         </subdivision-locale>
+         <subdivision-locale lang3code="roh" xml:lang="rm">
+            <subdivision-locale-name>Grischun</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="153">
+         <subdivision-code>CH-JU</subdivision-code>
+         <subdivision-locale lang3code="fra" xml:lang="fr">
+            <subdivision-locale-name>Jura</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="153">
+         <subdivision-code>CH-LU</subdivision-code>
+         <subdivision-locale lang3code="deu" xml:lang="de">
+            <subdivision-locale-name>Luzern</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="153">
+         <subdivision-code>CH-NE</subdivision-code>
+         <subdivision-locale lang3code="fra" xml:lang="fr">
+            <subdivision-locale-name>Neuchâtel</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="153">
+         <subdivision-code>CH-NW</subdivision-code>
+         <subdivision-locale lang3code="deu" xml:lang="de">
+            <subdivision-locale-name>Nidwalden</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="153">
+         <subdivision-code>CH-OW</subdivision-code>
+         <subdivision-locale lang3code="deu" xml:lang="de">
+            <subdivision-locale-name>Obwalden</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="153">
+         <subdivision-code>CH-SG</subdivision-code>
+         <subdivision-locale lang3code="deu" xml:lang="de">
+            <subdivision-locale-name>Sankt Gallen</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="153">
+         <subdivision-code>CH-SH</subdivision-code>
+         <subdivision-locale lang3code="deu" xml:lang="de">
+            <subdivision-locale-name>Schaffhausen</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="153">
+         <subdivision-code>CH-SO</subdivision-code>
+         <subdivision-locale lang3code="deu" xml:lang="de">
+            <subdivision-locale-name>Solothurn</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="153">
+         <subdivision-code>CH-SZ</subdivision-code>
+         <subdivision-locale lang3code="deu" xml:lang="de">
+            <subdivision-locale-name>Schwyz</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="153">
+         <subdivision-code>CH-TG</subdivision-code>
+         <subdivision-locale lang3code="deu" xml:lang="de">
+            <subdivision-locale-name>Thurgau</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="153">
+         <subdivision-code>CH-TI</subdivision-code>
+         <subdivision-locale lang3code="ita" xml:lang="it">
+            <subdivision-locale-name>Ticino</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="153">
+         <subdivision-code>CH-UR</subdivision-code>
+         <subdivision-locale lang3code="deu" xml:lang="de">
+            <subdivision-locale-name>Uri</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="153">
+         <subdivision-code>CH-VD</subdivision-code>
+         <subdivision-locale lang3code="fra" xml:lang="fr">
+            <subdivision-locale-name>Vaud</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="153">
+         <subdivision-code>CH-VS</subdivision-code>
+         <subdivision-locale lang3code="deu" xml:lang="de">
+            <subdivision-locale-name>Wallis</subdivision-locale-name>
+         </subdivision-locale>
+         <subdivision-locale lang3code="fra" xml:lang="fr">
+            <subdivision-locale-name>Valais</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="153">
+         <subdivision-code>CH-ZG</subdivision-code>
+         <subdivision-locale lang3code="deu" xml:lang="de">
+            <subdivision-locale-name>Zug</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="153">
+         <subdivision-code>CH-ZH</subdivision-code>
+         <subdivision-locale lang3code="deu" xml:lang="de">
+            <subdivision-locale-name>Zürich</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <list-source>Swiss constitution (2002-10-15); Swiss Association for Standardization (SNV)</list-source>
+      <code-source>Swiss Association for Standardization (SNV), 1987-08-26</code-source>
+      <change>
+         <change-date>2020-11-24</change-date>
+         <change-affected-part>3166-2</change-affected-part>
+         <change-type>Update</change-type>
+         <change-description xml:lang="en">Deletion of canton CH-GR in fra; Update List Source</change-description>
+         <change-description xml:lang="fr">Suppression du canton CH-GR en fra; Mise à jour de la Liste Source</change-description>
+      </change>
+   </country>
+   <country id="NZ" version="72">
+      <alpha-2-code>NZ</alpha-2-code>
+      <alpha-3-code>NZL</alpha-3-code>
+      <numeric-code>554</numeric-code>
+      <independent>YES</independent>
+      <status>officially-assigned</status>
+      <short-name lang3code="eng" xml:lang="en">New Zealand</short-name>
+      <short-name lang3code="fra" xml:lang="fr">Nouvelle-Zélande (la)</short-name>
+      <short-name lang3code="mri" xml:lang="mi">Aotearoa</short-name>
+      <short-name-upper-case lang3code="eng" xml:lang="en">NEW ZEALAND</short-name-upper-case>
+      <short-name-upper-case lang3code="fra" xml:lang="fr">NOUVELLE-ZÉLANDE</short-name-upper-case>
+      <short-name-upper-case lang3code="mri" xml:lang="mi">Aotearoa</short-name-upper-case>
+      <language>
+         <language-alpha-2-code>en</language-alpha-2-code>
+         <language-alpha-3-code>eng</language-alpha-3-code>
+         <language-is-administrative>YES</language-is-administrative>
+      </language>
+      <language>
+         <language-alpha-2-code>fr</language-alpha-2-code>
+         <language-alpha-3-code>fra</language-alpha-3-code>
+         <language-is-administrative>NO</language-is-administrative>
+      </language>
+      <language>
+         <language-alpha-2-code>mi</language-alpha-2-code>
+         <language-alpha-3-code>mri</language-alpha-3-code>
+         <language-is-administrative>YES</language-is-administrative>
+      </language>
+      <territory id="1007">
+         <territory-name lang3code="eng" xml:lang="en">Antipodes Islands</territory-name>
+         <territory-name lang3code="fra" xml:lang="fr">les Îles Antipodes</territory-name>
+      </territory>
+      <territory id="1010">
+         <territory-name lang3code="eng" xml:lang="en">Auckland Islands</territory-name>
+         <territory-name lang3code="fra" xml:lang="fr">les Îles Auckland</territory-name>
+      </territory>
+      <territory id="1033">
+         <territory-name lang3code="eng" xml:lang="en">Campbell Island</territory-name>
+         <territory-name lang3code="fra" xml:lang="fr">l'Île Campbell</territory-name>
+      </territory>
+      <territory id="1041">
+         <territory-name lang3code="eng" xml:lang="en">Chatham Islands</territory-name>
+         <territory-name lang3code="fra" xml:lang="fr">les Îles Chatham</territory-name>
+      </territory>
+      <territory id="1097">
+         <territory-name lang3code="eng" xml:lang="en">Kermadec Islands</territory-name>
+         <territory-name lang3code="fra" xml:lang="fr">les Îles Kermadec</territory-name>
+      </territory>
+      <category id="388">
+         <category-name lang3code="eng" xml:lang="en">region</category-name>
+         <category-name lang3code="fra" xml:lang="fr">région</category-name>
+         <category-name lang3code="mri" xml:lang="mi">rohe</category-name>
+         <category-name-plural lang3code="eng" xml:lang="en">regions</category-name-plural>
+      </category>
+      <category id="440">
+         <category-name lang3code="eng" xml:lang="en">special island authority</category-name>
+         <category-name lang3code="fra" xml:lang="fr">territoire insulaire</category-name>
+      </category>
+      <subdivision category-id="388">
+         <subdivision-code>NZ-AUK</subdivision-code>
+         <subdivision-locale lang3code="eng" xml:lang="en">
+            <subdivision-locale-name>Auckland</subdivision-locale-name>
+         </subdivision-locale>
+         <subdivision-locale lang3code="mri" xml:lang="mi">
+            <subdivision-locale-name>Tāmaki-makau-rau</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="388">
+         <subdivision-code>NZ-BOP</subdivision-code>
+         <subdivision-locale lang3code="eng" xml:lang="en">
+            <subdivision-locale-name>Bay of Plenty</subdivision-locale-name>
+         </subdivision-locale>
+         <subdivision-locale lang3code="mri" xml:lang="mi">
+            <subdivision-locale-name>Te Moana a Toi Te Huatahi</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="388">
+         <subdivision-code>NZ-CAN</subdivision-code>
+         <subdivision-locale lang3code="eng" xml:lang="en">
+            <subdivision-locale-name>Canterbury</subdivision-locale-name>
+         </subdivision-locale>
+         <subdivision-locale lang3code="mri" xml:lang="mi">
+            <subdivision-locale-name>Waitaha</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="388">
+         <subdivision-code>NZ-GIS</subdivision-code>
+         <subdivision-locale lang3code="eng" xml:lang="en">
+            <subdivision-locale-name>Gisborne</subdivision-locale-name>
+         </subdivision-locale>
+         <subdivision-locale lang3code="mri" xml:lang="mi">
+            <subdivision-locale-name>Tūranga nui a Kiwa</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="388">
+         <subdivision-code>NZ-HKB</subdivision-code>
+         <subdivision-locale lang3code="eng" xml:lang="en">
+            <subdivision-locale-name>Hawke's Bay</subdivision-locale-name>
+         </subdivision-locale>
+         <subdivision-locale lang3code="mri" xml:lang="mi">
+            <subdivision-locale-name>Te Matau a Māui</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="388">
+         <subdivision-code>NZ-MBH</subdivision-code>
+         <subdivision-locale lang3code="eng" xml:lang="en">
+            <subdivision-locale-name>Marlborough</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="388">
+         <subdivision-code>NZ-MWT</subdivision-code>
+         <subdivision-locale lang3code="eng" xml:lang="en">
+            <subdivision-locale-name>Manawatu-Wanganui</subdivision-locale-name>
+         </subdivision-locale>
+         <subdivision-locale lang3code="mri" xml:lang="mi">
+            <subdivision-locale-name>Manawatu Whanganui</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="388">
+         <subdivision-code>NZ-NSN</subdivision-code>
+         <subdivision-locale lang3code="eng" xml:lang="en">
+            <subdivision-locale-name>Nelson</subdivision-locale-name>
+         </subdivision-locale>
+         <subdivision-locale lang3code="mri" xml:lang="mi">
+            <subdivision-locale-name>Whakatū</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="388">
+         <subdivision-code>NZ-NTL</subdivision-code>
+         <subdivision-locale lang3code="eng" xml:lang="en">
+            <subdivision-locale-name>Northland</subdivision-locale-name>
+         </subdivision-locale>
+         <subdivision-locale lang3code="mri" xml:lang="mi">
+            <subdivision-locale-name>Te Tai tokerau</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="388">
+         <subdivision-code>NZ-OTA</subdivision-code>
+         <subdivision-locale lang3code="eng" xml:lang="en">
+            <subdivision-locale-name>Otago</subdivision-locale-name>
+         </subdivision-locale>
+         <subdivision-locale lang3code="mri" xml:lang="mi">
+            <subdivision-locale-name>Ō Tākou</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="388">
+         <subdivision-code>NZ-STL</subdivision-code>
+         <subdivision-locale lang3code="eng" xml:lang="en">
+            <subdivision-locale-name>Southland</subdivision-locale-name>
+         </subdivision-locale>
+         <subdivision-locale lang3code="mri" xml:lang="mi">
+            <subdivision-locale-name>Murihiku</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="388">
+         <subdivision-code>NZ-TAS</subdivision-code>
+         <subdivision-locale lang3code="eng" xml:lang="en">
+            <subdivision-locale-name>Tasman</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="388">
+         <subdivision-code>NZ-TKI</subdivision-code>
+         <subdivision-locale lang3code="eng" xml:lang="en">
+            <subdivision-locale-name>Taranaki</subdivision-locale-name>
+         </subdivision-locale>
+         <subdivision-locale lang3code="mri" xml:lang="mi">
+            <subdivision-locale-name>Taranaki</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="388">
+         <subdivision-code>NZ-WGN</subdivision-code>
+         <subdivision-locale lang3code="eng" xml:lang="en">
+            <subdivision-locale-name>Wellington</subdivision-locale-name>
+         </subdivision-locale>
+         <subdivision-locale lang3code="mri" xml:lang="mi">
+            <subdivision-locale-name>Te Whanga-nui-a-Tara</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="388">
+         <subdivision-code>NZ-WKO</subdivision-code>
+         <subdivision-locale lang3code="mri" xml:lang="mi">
+            <subdivision-locale-name>Waikato</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="388">
+         <subdivision-code>NZ-WTC</subdivision-code>
+         <subdivision-locale lang3code="eng" xml:lang="en">
+            <subdivision-locale-name>West Coast</subdivision-locale-name>
+         </subdivision-locale>
+         <subdivision-locale lang3code="mri" xml:lang="mi">
+            <subdivision-locale-name>Te Taihau ā uru</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="440">
+         <subdivision-code footnote="*">NZ-CIT</subdivision-code>
+         <subdivision-locale lang3code="eng" xml:lang="en">
+            <subdivision-locale-name>Chatham Islands Territory</subdivision-locale-name>
+         </subdivision-locale>
+         <subdivision-locale lang3code="mri" xml:lang="mi">
+            <subdivision-locale-name>Wharekauri</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <list-source>http://www.standards.co.nz; http://www.localcouncils.govt.nz/; Te Ika a Maui, The Land and its People. NZMS 346/1 http://www.linz.govt.nz/regulatory/place-names/about-new-zealand-geographic-board/nzgb-place-name-maps-and-publications;
+   Te Wai Pounamu, The Land and its People NZMS 346/2 http://www.linz.govt.nz/regulatory/place-names/about-new-zealand-geographic-board/nzgb-place-name-maps-and-publications</list-source>
+      <code-source>Maintenance Agency from Standards New Zealand, 2015-05-21 + ISO 3166/MA (*)</code-source>
+      <remark-part-1 lang3code="eng" xml:lang="en">Includes: Antipodes Islands, Auckland Islands, Campbell Island, Chatham Islands, Kermadec Islands.</remark-part-1>
+      <remark-part-1 lang3code="fra" xml:lang="fr">Y compris: les Îles Antipodes, les Îles Auckland, l'Île Campbell, les Îles Chatham, les Îles Kermadec.</remark-part-1>
+      <change>
+         <change-date>2020-11-24</change-date>
+         <change-affected-part>3166-2</change-affected-part>
+         <change-type>Update</change-type>
+         <change-description xml:lang="en">Correction of the Code Source</change-description>
+         <change-description xml:lang="fr">Correction du Code Source</change-description>
+      </change>
+      <change>
+         <change-date>2015-11-27</change-date>
+         <change-affected-part>3166-2</change-affected-part>
+         <change-type>Update</change-type>
+         <change-description xml:lang="en">Deletion of all unitary authorities; deletion of islands NZ-N, NZ-S; Change of subdivision name of NZ-GIS, NZ-MBH, NZ-NSN, NZ-TAS, change of subdivision category from regional council to region; update List Source</change-description>
+         <change-description xml:lang="fr">Suppression de toutes les autorités unitaires; Suppression des îles NZ-N, NZ-S; Modification du nom de la subdivision de NZ-GIS, NZ-MBH, NZ-NSN, NZ-TAS, modification de la catégorie de subdivision remplacer conseil régional par région; mise à jour de la Liste Source</change-description>
+      </change>
+      <change>
+         <change-date>2014-11-03</change-date>
+         <change-affected-part>3166-2</change-affected-part>
+         <change-description xml:lang="en">Change subdivision category of NZ-AUK</change-description>
+         <change-description xml:lang="fr">Modification de la catégorie de subdivision de NZ-AUK</change-description>
+      </change>
+      <change>
+         <change-date>2010-06-30</change-date>
+         <change-affected-part>3166-2</change-affected-part>
+         <change-type>Update</change-type>
+         <change-description xml:lang="en">Addition of the country code prefix as the first code element, addition of names in administrative languages, update of the administrative structure and of the list source </change-description>
+         <change-description xml:lang="fr">Ajout des préfixes des repères géographiques, rectification d’une erreur typographique et mise à jour résultant des réalités administrative et linguistique.</change-description>
+      </change>
+   </country>
+</country-codes>

@@ -1,8 +1,6 @@
-# Iso3166::Countries
+# ISO3166::Countries
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/iso3166/countries`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This gem is heavily inspired by [hexorx/countries](https://github.com/hexorx/countries). Due to lack of maintenance of the original gem, we decided to make our own gem based on iso.org data.
 
 ## Installation
 
@@ -22,7 +20,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+The gem is shipped with sample data that includes ISO3166 data for 3 countries(BR, CH and NZ). In order to access all countries data, you must purchase the XML data file from [iso.org](https://www.iso.org/).
+
+```ruby
+ISO3166::Countries.data_path = "path/to/data/file.xml"
+ISO3166::Country.new('BR')
+=> #<ISO3166::Country:0x00007f9253226d88 @code="BR" ...
+```
 
 ## Development
 
@@ -32,7 +36,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/iso3166-countries.
+Bug reports and pull requests are welcome on GitHub at https://github.com/viaeurope/iso3166-countries.
 
 ## License
 
