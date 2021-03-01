@@ -8,11 +8,14 @@ require_relative "country"
 module ISO3166
   module Countries
     class << self
-      attr_writer :data_path
-
       def data_path
         @data_path ||
           File.join(__dir__, "..", "..", "data", "sample.xml")
+      end
+
+      def data_path=(path)
+        ISO3166::Data.reset
+        @data_path = path
       end
     end
   end

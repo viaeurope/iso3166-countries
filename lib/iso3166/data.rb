@@ -6,6 +6,10 @@ module ISO3166
     @@xml_data = nil
 
     class << self
+      def reset
+        @@xml_data = nil
+      end
+
       def reload
         return if @@xml_data
 
