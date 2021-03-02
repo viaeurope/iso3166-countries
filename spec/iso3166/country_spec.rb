@@ -44,5 +44,10 @@ RSpec.describe ISO3166::Country do
     it "finds by alpha3" do
       expect(ISO3166::Country.find_by(alpha3: "BRA")).to eq ISO3166::Country.new("BR")
     end
+
+    it "raises error with multiple arguments" do
+      expect { ISO3166::Country.find_by(alpha2: "BR", alpha3: "BRA") }
+        .to raise_error ISO3166::Country::TooManyArguments
+    end
   end
 end

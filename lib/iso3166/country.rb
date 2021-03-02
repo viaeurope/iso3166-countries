@@ -2,6 +2,8 @@
 
 module ISO3166
   class Country
+    class TooManyArguments < StandardError; end
+
     def self.new(code, xml_node: nil)
       return super(xml_node) if xml_node
 
@@ -11,6 +13,8 @@ module ISO3166
     end
 
     def self.find_by(alpha2: nil, alpha3: nil)
+      raise TooManyArguments, "submit either alpha2 or alpha3" if alpha2 && alpha3
+
       if alpha2
         new(alpha2)
       elsif alpha3 && (xml_node = ISO3166::XMLData.find_by_alpha3(alpha3))
