@@ -20,6 +20,13 @@ RSpec.describe ISO3166::Country do
     )
   end
 
+  describe "#translation" do
+    it "drops trailing (the)" do
+      expect(ISO3166::Country.new("NL").translation).to eq "Netherlands"
+      expect(ISO3166::Country.new("BR").translation).to eq "Brazil"
+    end
+  end
+
   context "#in_eu?" do
     let(:country_code) { "NL" }
 

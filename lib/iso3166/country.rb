@@ -47,7 +47,10 @@ module ISO3166
     def name
       @_name ||= xml_node.at_xpath("./short-name[@lang3code='eng']").text
     end
-    alias_method :translation, :name
+
+    def translation
+      @_translation ||= name.sub(" (the)", "")
+    end
 
     def number
       @_number ||= xml_node.at_xpath("./numeric-code").text
