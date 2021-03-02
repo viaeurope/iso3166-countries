@@ -34,4 +34,14 @@ RSpec.describe ISO3166::Country do
       expect(subject).to be_nil
     end
   end
+
+  describe ".find_by" do
+    it "finds by alpha2" do
+      expect(ISO3166::Country.find_by(alpha2: "BR")).to eq ISO3166::Country.new("BR")
+    end
+
+    it "finds by alpha3" do
+      expect(ISO3166::Country.find_by(alpha3: "BRA")).to eq ISO3166::Country.new("BR")
+    end
+  end
 end

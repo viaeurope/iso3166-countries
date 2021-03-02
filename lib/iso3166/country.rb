@@ -2,20 +2,30 @@
 
 module ISO3166
   class Country
-    def self.new(code)
+    def self.new(code, xml_node: nil)
+      return super(xml_node) if xml_node
+
       if (xml_node = ISO3166::XMLData.find(code))
-        super(code, xml_node)
+        super(xml_node)
       end
     end
 
-    attr_reader :code, :xml_node
+    def self.find_by(alpha2: nil, alpha3: nil)
+      if alpha2
+        new(alpha2)
+      elsif alpha3 && (xml_node = ISO3166::XMLData.find_by_alpha3(alpha3))
+        new(nil, xml_node: xml_node)
+      end
+    end
 
-    def initialize(code, xml_node)
-      @code, @xml_node = code, xml_node
+    attr_reader :xml_node
+
+    def initialize(xml_node)
+      @xml_node = xml_node
     end
 
     def alpha2
-      code.to_s
+      @_alpha2 ||= xml_node.at_xpath("./alpha-2-code").text
     end
 
     def alpha3
@@ -35,7 +45,15 @@ module ISO3166
     end
 
     def yml_data
-      @_yml_data ||= ISO3166::YMLData.find(code) || {}
+      @_yml_data ||= ISO3166::YMLData.find(alpha2) || {}
+    end
+
+    def ==(other)
+      other.respond_to?(:alpha2) && other.alpha2 == alpha2
+    end
+
+    def eql?(other)
+      self == other
     end
   end
 end

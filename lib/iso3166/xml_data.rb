@@ -22,6 +22,11 @@ module ISO3166
         reload!
         @@data.at_xpath("//country[@id='#{code}']")
       end
+
+      def find_by_alpha3(code)
+        reload!
+        @@data.at_xpath("//country[alpha-3-code[text()='#{code}']]")
+      end
     end
   end
 end
