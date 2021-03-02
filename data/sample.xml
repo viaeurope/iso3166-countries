@@ -894,4 +894,16 @@
          <change-description xml:lang="fr">Ajouter Iles Bonaire, Saint-Eustache et Saba</change-description>
       </change>
    </country>
+   <country id="AC" version="72">
+     <alpha-2-code>AC</alpha-2-code>
+     <alpha-3-code>ASC</alpha-3-code>
+     <status>exceptionally-reserved</status>
+     <status-remark>Refers to Ascension Island and reserved at the request of Universal Postal Union (UPU)</status-remark>
+     <short-name-upper-case lang3code="eng" xml:lang="en">Ascension Island</short-name-upper-case>
+     <language>
+        <language-alpha-2-code>en</language-alpha-2-code>
+        <language-alpha-3-code>eng</language-alpha-3-code>
+        <language-is-administrative>NO</language-is-administrative>
+     </language>
+  </country>
 </country-codes>

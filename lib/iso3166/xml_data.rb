@@ -27,6 +27,16 @@ module ISO3166
         reload!
         @@data.at_xpath("//country[alpha-3-code[text()='#{code}']]")
       end
+
+      def all_names_with_codes
+        reload!
+        @@data.xpath("//country[status[text()='officially-assigned']]").map do |xml_node|
+          [
+            xml_node.at_xpath("./alpha-2-code").text,
+            xml_node.at_xpath("./short-name[@lang3code='eng']").text
+          ]
+        end
+      end
     end
   end
 end

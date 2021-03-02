@@ -50,4 +50,15 @@ RSpec.describe ISO3166::Country do
         .to raise_error ISO3166::Country::TooManyArguments
     end
   end
+
+  describe ".all_names_with_codes" do
+    it "returns list of 'officially-assigned' countries with code and name" do
+      expect(ISO3166::Country.all_names_with_codes).to eq([
+        ["BR", "Brazil"],
+        ["CH", "Switzerland"],
+        ["NZ", "New Zealand"],
+        ["NL", "Netherlands (the)"]
+      ])
+    end
+  end
 end

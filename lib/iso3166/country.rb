@@ -22,6 +22,10 @@ module ISO3166
       end
     end
 
+    def self.all_names_with_codes
+      ISO3166::XMLData.all_names_with_codes
+    end
+
     attr_reader :xml_node
 
     def initialize(xml_node)
