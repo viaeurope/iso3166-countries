@@ -35,6 +35,7 @@ module ISO3166
     def name
       @_name ||= xml_node.at_xpath("./short-name[@lang3code='eng']").text
     end
+    alias_method :translation, :name
 
     def number
       @_number ||= xml_node.at_xpath("./numeric-code").text
@@ -51,9 +52,6 @@ module ISO3166
     def ==(other)
       other.respond_to?(:alpha2) && other.alpha2 == alpha2
     end
-
-    def eql?(other)
-      self == other
-    end
+    alias_method :eql?, :==
   end
 end
