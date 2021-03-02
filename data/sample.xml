@@ -699,4 +699,199 @@
          <change-description xml:lang="fr">Ajout des préfixes des repères géographiques, rectification d’une erreur typographique et mise à jour résultant des réalités administrative et linguistique.</change-description>
       </change>
    </country>
+   <country id="NL" version="72">
+      <alpha-2-code>NL</alpha-2-code>
+      <alpha-3-code>NLD</alpha-3-code>
+      <numeric-code>528</numeric-code>
+      <independent>YES</independent>
+      <status>officially-assigned</status>
+      <status-remark>Includes: the islands Bonaire, Saint Eustatius and Saba</status-remark>
+      <full-name lang3code="eng" xml:lang="en">the Kingdom of the Netherlands</full-name>
+      <full-name lang3code="fra" xml:lang="fr">le Royaume des Pays-Bas</full-name>
+      <short-name lang3code="eng" xml:lang="en">Netherlands (the)</short-name>
+      <short-name lang3code="fra" xml:lang="fr">Pays-Bas (les)</short-name>
+      <short-name lang3code="nld" xml:lang="nl">Nederland</short-name>
+      <short-name-upper-case lang3code="eng" xml:lang="en">NETHERLANDS</short-name-upper-case>
+      <short-name-upper-case lang3code="fra" xml:lang="fr">PAYS-BAS</short-name-upper-case>
+      <short-name-upper-case lang3code="nld" xml:lang="nl">Nederland</short-name-upper-case>
+      <language>
+         <language-alpha-2-code>en</language-alpha-2-code>
+         <language-alpha-3-code>eng</language-alpha-3-code>
+         <language-is-administrative>NO</language-is-administrative>
+      </language>
+      <language>
+         <language-alpha-2-code>fr</language-alpha-2-code>
+         <language-alpha-3-code>fra</language-alpha-3-code>
+         <language-is-administrative>NO</language-is-administrative>
+      </language>
+      <language>
+         <language-alpha-2-code>nl</language-alpha-2-code>
+         <language-alpha-3-code>nld</language-alpha-3-code>
+         <language-is-administrative>YES</language-is-administrative>
+      </language>
+      <category id="387">
+         <category-name lang3code="eng" xml:lang="en">province</category-name>
+         <category-name lang3code="fra" xml:lang="fr">province</category-name>
+         <category-name lang3code="nld" xml:lang="nl">provincie</category-name>
+         <category-name-plural lang3code="eng" xml:lang="en">provinces</category-name-plural>
+      </category>
+      <category id="398">
+         <category-name lang3code="eng" xml:lang="en">country</category-name>
+         <category-name lang3code="nld" xml:lang="nl">land</category-name>
+         <category-name lang3code="pap">pais</category-name>
+         <category-name-plural lang3code="eng" xml:lang="en">countries</category-name-plural>
+      </category>
+      <category id="413">
+         <category-name lang3code="eng" xml:lang="en">special municipality</category-name>
+         <category-name lang3code="nld" xml:lang="nl">bijzondere gemeente</category-name>
+         <category-name lang3code="pap">municipio special</category-name>
+         <category-name-plural lang3code="eng" xml:lang="en">special municipalities</category-name-plural>
+      </category>
+      <subdivision category-id="387">
+         <subdivision-code>NL-DR</subdivision-code>
+         <subdivision-locale lang3code="nld" xml:lang="nl">
+            <subdivision-locale-name>Drenthe</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="387">
+         <subdivision-code footnote="*">NL-FL</subdivision-code>
+         <subdivision-locale lang3code="nld" xml:lang="nl">
+            <subdivision-locale-name>Flevoland</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="387">
+         <subdivision-code>NL-FR</subdivision-code>
+         <subdivision-locale lang3code="fry" xml:lang="fy">
+            <subdivision-locale-name>Fryslân</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="387">
+         <subdivision-code>NL-GE</subdivision-code>
+         <subdivision-locale lang3code="nld" xml:lang="nl">
+            <subdivision-locale-name>Gelderland</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="387">
+         <subdivision-code>NL-GR</subdivision-code>
+         <subdivision-locale lang3code="nld" xml:lang="nl">
+            <subdivision-locale-name>Groningen</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="387">
+         <subdivision-code>NL-LI</subdivision-code>
+         <subdivision-locale lang3code="nld" xml:lang="nl">
+            <subdivision-locale-name>Limburg</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="387">
+         <subdivision-code>NL-NB</subdivision-code>
+         <subdivision-locale lang3code="nld" xml:lang="nl">
+            <subdivision-locale-name>Noord-Brabant</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="387">
+         <subdivision-code>NL-NH</subdivision-code>
+         <subdivision-locale lang3code="nld" xml:lang="nl">
+            <subdivision-locale-name>Noord-Holland</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="387">
+         <subdivision-code>NL-OV</subdivision-code>
+         <subdivision-locale lang3code="nld" xml:lang="nl">
+            <subdivision-locale-name>Overijssel</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="387">
+         <subdivision-code>NL-UT</subdivision-code>
+         <subdivision-locale lang3code="nld" xml:lang="nl">
+            <subdivision-locale-name>Utrecht</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="387">
+         <subdivision-code>NL-ZE</subdivision-code>
+         <subdivision-locale lang3code="nld" xml:lang="nl">
+            <subdivision-locale-name>Zeeland</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="387">
+         <subdivision-code>NL-ZH</subdivision-code>
+         <subdivision-locale lang3code="nld" xml:lang="nl">
+            <subdivision-locale-name>Zuid-Holland</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="398">
+         <subdivision-code footnote="*">NL-AW</subdivision-code>
+         <subdivision-related-country country-id="AW" xml:lang="en">ARUBA</subdivision-related-country>
+         <subdivision-locale lang3code="nld" xml:lang="nl">
+            <subdivision-locale-name>Aruba (see also separate country code entry under AW)</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="398">
+         <subdivision-code footnote="*">NL-CW</subdivision-code>
+         <subdivision-related-country country-id="CW" xml:lang="en">CURAÇAO</subdivision-related-country>
+         <subdivision-locale lang3code="nld" xml:lang="nl">
+            <subdivision-locale-name>Curaçao (see also separate country code entry under CW)</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="398">
+         <subdivision-code footnote="*">NL-SX</subdivision-code>
+         <subdivision-related-country country-id="SX" xml:lang="en">SINT MAARTEN (DUTCH PART)</subdivision-related-country>
+         <subdivision-locale lang3code="nld" xml:lang="nl">
+            <subdivision-locale-name>Sint Maarten (see also separate country code entry under SX)</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="413">
+         <subdivision-code footnote="*">NL-BQ1</subdivision-code>
+         <subdivision-related-country country-id="BQ" xml:lang="en">BONAIRE, SINT EUSTATIUS AND SABA</subdivision-related-country>
+         <subdivision-locale lang3code="nld" xml:lang="nl">
+            <subdivision-locale-name>Bonaire (see also separate country code entry under BQ)</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="413">
+         <subdivision-code footnote="*">NL-BQ2</subdivision-code>
+         <subdivision-related-country country-id="BQ" xml:lang="en">BONAIRE, SINT EUSTATIUS AND SABA</subdivision-related-country>
+         <subdivision-locale lang3code="nld" xml:lang="nl">
+            <subdivision-locale-name>Saba (see also separate country code entry under BQ)</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <subdivision category-id="413">
+         <subdivision-code footnote="*">NL-BQ3</subdivision-code>
+         <subdivision-related-country country-id="BQ" xml:lang="en">BONAIRE, SINT EUSTATIUS AND SABA</subdivision-related-country>
+         <subdivision-locale lang3code="nld" xml:lang="nl">
+            <subdivision-locale-name>Sint Eustatius (see also separate country code entry under BQ)</subdivision-locale-name>
+         </subdivision-locale>
+      </subdivision>
+      <list-source>Nederlands Normalisatie-Instituut (NNI), 1987-07-22; IGN 1986 update BET 1996 ; http://nl.wikipedia.org/wiki/Caribisch_Nederland ; http://www.geonames.de/counl.html</list-source>
+      <code-source>Nederlands Normalisatie-Instituut (NNI), 1987-07-22 + ISO/TC 46/WG 2 Secretariat (*)</code-source>
+      <remark-part-1 lang3code="eng" xml:lang="en">Includes: the islands Bonaire, Sint Eustatius and Saba.</remark-part-1>
+      <remark-part-1 lang3code="fra" xml:lang="fr">Y compris: les Îles Bonaire, Saint-Eustache et Saba.</remark-part-1>
+      <change>
+         <change-date>2011-12-13</change-date>
+         <change-affected-part>3166-2</change-affected-part>
+         <change-type>Update</change-type>
+         <change-description xml:lang="en">Update resulting from the addition of the administrative readjustment and source list update. </change-description>
+         <change-description xml:lang="fr">Mise à jour résultant de l’ajout de réajustements administratifs et mise à jour de la liste source.</change-description>
+      </change>
+      <change>
+         <change-date>2011-07-14</change-date>
+         <change-affected-part>3166-1</change-affected-part>
+         <change-type>Update</change-type>
+         <change-description xml:lang="en">Correct the English name to Sint Eustatius in alignment with UNTERM</change-description>
+         <change-description xml:lang="fr">Corriger le nom en anglais Sint Eustatius pour l'aligner avec UNTERM</change-description>
+      </change>
+      <change>
+         <change-date>2011-06-12</change-date>
+         <change-affected-part>3166-1</change-affected-part>
+         <change-type>Update</change-type>
+         <change-description xml:lang="en">Correct the English name to Sint Eustatius in alignment with UNTERM</change-description>
+         <change-description xml:lang="fr">Corriger le nom en anglais Sint Eustatius pour l'aligner avec UNTERM</change-description>
+      </change>
+      <change>
+         <change-date>2010-12-15</change-date>
+         <change-affected-part>3166-1</change-affected-part>
+         <change-type>Update</change-type>
+         <change-description xml:lang="en">Add Bonaire, Saint Eustatius and Saba Islands</change-description>
+         <change-description xml:lang="fr">Ajouter Iles Bonaire, Saint-Eustache et Saba</change-description>
+      </change>
+   </country>
 </country-codes>

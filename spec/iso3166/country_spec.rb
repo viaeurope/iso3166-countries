@@ -14,8 +14,17 @@ RSpec.describe ISO3166::Country do
       alpha2: "BR",
       alpha3: "BRA",
       name: "Brazil",
-      number: "076"
+      number: "076",
+      in_eu?: false
     )
+  end
+
+  context "#in_eu?" do
+    let(:country_code) { "NL" }
+
+    it "is in eu" do
+      expect(subject.in_eu?).to eq true
+    end
   end
 
   context "not found" do

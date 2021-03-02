@@ -1,26 +1,26 @@
 # frozen_string_literal: true
 
 module ISO3166
-  class Data
+  class YMLData
     @@semaphore = Mutex.new
-    @@xml_data = nil
+    @@data = nil
 
     class << self
       def reset!
-        @@xml_data = nil
+        @@data = nil
       end
 
       def reload!
-        return if @@xml_data
+        return if @@data
 
         @@semaphore.synchronize do
-          @@xml_data = File.open(ISO3166::Countries.data_path) { |f| Nokogiri::XML(f) }
+          @@data = YAML.load_file(ISO3166::Countries.yml_data_path)
         end
       end
 
       def find(code)
         reload!
-        @@xml_data.at_xpath("//country[@id='#{code}']")
+        @@data[code.to_s]
       end
     end
   end
