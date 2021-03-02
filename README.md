@@ -24,8 +24,16 @@ The gem is shipped with sample data that includes ISO3166 data for 3 countries(B
 
 ```ruby
 ISO3166::Countries.data_path = "path/to/data/file.xml"
-ISO3166::Country.new('BR')
+country = ISO3166::Country.new('BR')
 => #<ISO3166::Country:0x00007f9253226d88 @code="BR" ...
+country.alpha2
+=> "BR"
+country.alpha3
+=> "BRA"
+country.name
+=> "Brazil" # English name
+country.number
+=> "076"
 ```
 
 ## Development
