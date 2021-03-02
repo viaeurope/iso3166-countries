@@ -16,7 +16,8 @@ RSpec.describe ISO3166::Country do
       name: "Brazil",
       translation: "Brazil",
       number: "076",
-      in_eu?: false
+      in_eu?: false,
+      currency_code: "BRL"
     )
   end
 

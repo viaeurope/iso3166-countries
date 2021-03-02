@@ -36,6 +36,8 @@ country.number
 => "076"
 country.in_eu?
 => false
+country.currency_code
+=> "BRL"
 
 ISO3166::Country.find_by(alpha2: "BR")
 => #<ISO3166::Country:0x00007f9253226d88 @code="BR" ...

@@ -64,6 +64,10 @@ module ISO3166
       @_yml_data ||= ISO3166::YMLData.find(alpha2) || {}
     end
 
+    def currency_code
+      @_currency_code ||= yml_data["currency_code"]
+    end
+
     def ==(other)
       other.respond_to?(:alpha2) && other.alpha2 == alpha2
     end
