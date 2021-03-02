@@ -6,11 +6,11 @@ module ISO3166
     @@xml_data = nil
 
     class << self
-      def reset
+      def reset!
         @@xml_data = nil
       end
 
-      def reload
+      def reload!
         return if @@xml_data
 
         @@semaphore.synchronize do
@@ -19,7 +19,7 @@ module ISO3166
       end
 
       def find(code)
-        reload
+        reload!
         @@xml_data.at_xpath("//country[@id='#{code}']")
       end
     end

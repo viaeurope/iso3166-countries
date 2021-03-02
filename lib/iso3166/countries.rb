@@ -14,7 +14,7 @@ module ISO3166
       end
 
       def data_path=(path)
-        ISO3166::Data.reset
+        ISO3166::Data.reset!
         @data_path = path
       end
     end
