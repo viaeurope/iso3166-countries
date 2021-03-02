@@ -15,5 +15,5 @@ jobs:
       run: |
         gem install bundler -v 2.2.11
         bundle install
-        bundle exec rake spec
+        RUBYOPT='--enable-frozen-string-literal' bundle exec rake spec
         bundle exec rake standard
