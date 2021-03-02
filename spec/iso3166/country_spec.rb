@@ -51,6 +51,12 @@ RSpec.describe ISO3166::Country do
     end
   end
 
+  describe ".[]" do
+    it "works as .new(alpha2)" do
+      expect(ISO3166::Country["BR"]).to eq ISO3166::Country.new("BR")
+    end
+  end
+
   describe ".all_names_with_codes" do
     it "returns list of 'officially-assigned' countries with code and name" do
       expect(ISO3166::Country.all_names_with_codes).to eq([

@@ -43,6 +43,9 @@ ISO3166::Country.find_by(alpha3: "BRA")
 => #<ISO3166::Country:0x00007f9253226d88 @code="BR" ...
 ISO3166::Country.all_names_with_codes
 => [["BR", "Brazil"], ["CH", "Switzerland"], ["NZ", "New Zealand"], ["NL", "Netherlands (the)"]]
+
+ISO3166::Country.find_by(alpha2: "BR") == ISO3166::Country["BR"]
+=> true
 ```
 
 ## Development
