@@ -68,10 +68,10 @@ RSpec.describe ISO3166::Country do
   describe ".all_names_with_codes" do
     it "returns list of 'officially-assigned' countries with code and name" do
       expect(ISO3166::Country.all_names_with_codes).to eq([
-        ["BR", "Brazil"],
-        ["CH", "Switzerland"],
-        ["NZ", "New Zealand"],
-        ["NL", "Netherlands (the)"]
+        ["Brazil", "BR"],
+        ["Switzerland", "CH"],
+        ["New Zealand", "NZ"],
+        ["Netherlands (the)", "NL"]
       ])
     end
   end

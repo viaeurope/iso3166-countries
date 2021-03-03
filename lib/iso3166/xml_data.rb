@@ -32,8 +32,8 @@ module ISO3166
         reload!
         @@data.xpath("//country[status[text()='officially-assigned']]").map do |xml_node|
           [
-            xml_node.at_xpath("./alpha-2-code").text,
-            xml_node.at_xpath("./short-name[@lang3code='eng']").text
+            xml_node.at_xpath("./short-name[@lang3code='eng']").text,
+            xml_node.at_xpath("./alpha-2-code").text
           ]
         end
       end
