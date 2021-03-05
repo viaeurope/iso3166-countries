@@ -28,11 +28,15 @@ RSpec.describe ISO3166::Country do
     end
   end
 
-  context "#in_eu?" do
+  describe "extended data" do
     let(:country_code) { "NL" }
 
-    it "is in eu" do
-      expect(subject.in_eu?).to eq true
+    it "provides extra data" do
+      expect(subject).to have_attributes(
+        in_eu?: true,
+        postal_code_format: "NNNNAA, NNNN AA",
+        postal_code_regexp: /\A\d{4}\s?[A-Z]{2}\z/
+      )
     end
   end
 

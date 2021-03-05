@@ -66,6 +66,14 @@ module ISO3166
       !!yml_data["eu_member"]
     end
 
+    def postal_code_format
+      yml_data["postal_code_format"]
+    end
+
+    def postal_code_regexp
+      yml_data["postal_code_regexp"]
+    end
+
     def yml_data
       @_yml_data ||= ISO3166::YMLData.find(alpha2) || {}
     end
