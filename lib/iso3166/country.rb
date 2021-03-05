@@ -30,6 +30,12 @@ module ISO3166
       new(code)
     end
 
+    def self.all
+      ISO3166::XMLData.all_names_with_codes.map do |name, alpha2|
+        new(alpha2)
+      end
+    end
+
     attr_reader :xml_node
 
     def initialize(xml_node)

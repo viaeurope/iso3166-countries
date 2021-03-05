@@ -75,4 +75,15 @@ RSpec.describe ISO3166::Country do
       ])
     end
   end
+
+  describe ".all" do
+    it "returns array of country instances" do
+      expect(ISO3166::Country.all).to eq([
+        ISO3166::Country.new("BR"),
+        ISO3166::Country.new("CH"),
+        ISO3166::Country.new("NZ"),
+        ISO3166::Country.new("NL")
+      ])
+    end
+  end
 end
