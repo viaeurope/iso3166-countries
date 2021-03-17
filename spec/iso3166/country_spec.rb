@@ -14,6 +14,7 @@ RSpec.describe ISO3166::Country do
       alpha2: "BR",
       alpha3: "BRA",
       name: "Brazil",
+      full_name: "the Federative Republic of Brazil",
       translation: "Brazil",
       number: "076",
       in_eu?: false,

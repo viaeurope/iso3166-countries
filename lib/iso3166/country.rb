@@ -54,6 +54,10 @@ module ISO3166
       @_name ||= xml_node.at_xpath("./short-name[@lang3code='eng']").text
     end
 
+    def full_name
+      @_full_name ||= xml_node.at_xpath("./full-name[@lang3code='eng']").text
+    end
+
     def translation
       @_translation ||= name.sub(" (the)", "")
     end
