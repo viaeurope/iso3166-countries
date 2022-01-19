@@ -75,7 +75,10 @@ module ISO3166
     end
 
     def postal_code_regexp
-      yml_data["postal_code_regexp"]
+      pattern = yml_data["postal_code_regexp"]
+      return if pattern.nil?
+
+      @_postal_code_regexp ||= Regexp.new(pattern)
     end
 
     def yml_data

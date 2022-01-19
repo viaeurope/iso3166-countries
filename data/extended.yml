@@ -24,7 +24,7 @@ AT:
   eu_member: true
   currency_code: EUR
   postal_code_format: NNNN
-  postal_code_regexp: !ruby/regexp '/\A\d{4}\z/'
+  postal_code_regexp: \A\d{4}\z
 AU:
   currency_code: AUD
 AW:
@@ -43,14 +43,14 @@ BE:
   eu_member: true
   currency_code: EUR
   postal_code_format: NNNN
-  postal_code_regexp: !ruby/regexp '/\A\d{4}\z/'
+  postal_code_regexp: \A\d{4}\z
 BF:
   currency_code: XOF
 BG:
   eu_member: true
   currency_code: BGN
   postal_code_format: NNNN
-  postal_code_regexp: !ruby/regexp '/\A\d{4}\z/'
+  postal_code_regexp: \A\d{4}\z
 BH:
   currency_code: BHD
 BI:
@@ -119,24 +119,24 @@ CY:
   eu_member: true
   currency_code: EUR
   postal_code_format: NNNN
-  postal_code_regexp: !ruby/regexp '/\A\d{4}\z/'
+  postal_code_regexp: \A\d{4}\z
 CZ:
   eu_member: true
   currency_code: CZK
   postal_code_format: NNNNN
-  postal_code_regexp: !ruby/regexp '/\A[1234567]\d{4}\z/'
+  postal_code_regexp: \A[1234567]\d{4}\z
 DE:
   eu_member: true
   currency_code: EUR
   postal_code_format: NNNNN
-  postal_code_regexp: !ruby/regexp '/\A\d{5}\z/'
+  postal_code_regexp: \A\d{5}\z
 DJ:
   currency_code: DJF
 DK:
   eu_member: true
   currency_code: DKK
   postal_code_format: NNNN
-  postal_code_regexp: !ruby/regexp '/\A\d{4}\z/'
+  postal_code_regexp: \A\d{4}\z
 DM:
   currency_code: XCD
 DO:
@@ -149,7 +149,7 @@ EE:
   eu_member: true
   currency_code: EUR
   postal_code_format: NNNNN
-  postal_code_regexp: !ruby/regexp '/\A\d{5}\z/'
+  postal_code_regexp: \A\d{5}\z
 EG:
   currency_code: EGP
 EH:
@@ -160,14 +160,14 @@ ES:
   eu_member: true
   currency_code: EUR
   postal_code_format: NNNNN
-  postal_code_regexp: !ruby/regexp '/\A\d{5}\z/'
+  postal_code_regexp: \A\d{5}\z
 ET:
   currency_code: ETB
 FI:
   eu_member: true
   currency_code: EUR
   postal_code_format: NNNNN
-  postal_code_regexp: !ruby/regexp '/\A\d{5}\z/'
+  postal_code_regexp: \A\d{5}\z
 FJ:
   currency_code: FJD
 FK:
@@ -180,7 +180,7 @@ FR:
   eu_member: true
   currency_code: EUR
   postal_code_format: NNNNN
-  postal_code_regexp: !ruby/regexp '/\A\d{5}\z/'
+  postal_code_regexp: \A\d{5}\z
 GA:
   currency_code: XAF
 GB:
@@ -211,7 +211,7 @@ GR:
   eu_member: true
   currency_code: EUR
   postal_code_format: NNNNN
-  postal_code_regexp: !ruby/regexp '/\A\d{5}\z/'
+  postal_code_regexp: \A\d{5}\z
 GS:
   currency_code:
 GT:
@@ -232,21 +232,21 @@ HR:
   eu_member: true
   currency_code: HRK
   postal_code_format: NNNNN
-  postal_code_regexp: !ruby/regexp '/\A\d{5}\z/'
+  postal_code_regexp: \A\d{5}\z
 HT:
   currency_code: HTG
 HU:
   eu_member: true
   currency_code: HUF
   postal_code_format: NNNN
-  postal_code_regexp: !ruby/regexp '/\A\d{4}\z/'
+  postal_code_regexp: \A\d{4}\z
 ID:
   currency_code: IDR
 IE:
   eu_member: true
   currency_code: EUR
   postal_code_format: ANAnAnAnAnAn
-  postal_code_regexp: !ruby/regexp '/\A([AC-FHKNPRTV-Y]\d{2}|D6W)[0-9AC-FHKNPRTV-Y]{4}\z/'
+  postal_code_regexp: \A([AC-FHKNPRTV-Y]\d{2}|D6W)[0-9AC-FHKNPRTV-Y]{4}\z
 IL:
   currency_code: ILS
 IM:
@@ -265,7 +265,7 @@ IT:
   eu_member: true
   currency_code: EUR
   postal_code_format: NNNNN
-  postal_code_regexp: !ruby/regexp '/\A\d{5}\z/'
+  postal_code_regexp: \A\d{5}\z
 JE:
   currency_code: GBP
 JM:
@@ -314,17 +314,17 @@ LT:
   eu_member: true
   currency_code: EUR
   postal_code_format: NNNNN
-  postal_code_regexp: !ruby/regexp '/\A\d{5}\z/'
+  postal_code_regexp: \A\d{5}\z
 LU:
   eu_member: true
   currency_code: EUR
   postal_code_format: NNNN
-  postal_code_regexp: !ruby/regexp '/\A\d{4}\z/'
+  postal_code_regexp: \A\d{4}\z
 LV:
   eu_member: true
   currency_code: EUR
   postal_code_format: NNNN
-  postal_code_regexp: !ruby/regexp '/\A\d{4}\z/'
+  postal_code_regexp: \A\d{4}\z
 LY:
   currency_code: LYD
 MA:
@@ -363,7 +363,7 @@ MT:
   eu_member: true
   currency_code: EUR
   postal_code_format: AAANNNN
-  postal_code_regexp: !ruby/regexp '/^[A-Z]{3}\d{4}$/'
+  postal_code_regexp: ^[A-Z]{3}\d{4}$
 MU:
   currency_code: MUR
 MV:
@@ -392,7 +392,7 @@ NL:
   eu_member: true
   currency_code: EUR
   postal_code_format: "NNNNAA, NNNN AA"
-  postal_code_regexp: !ruby/regexp '/\A\d{4}\s?[A-Z]{2}\z/'
+  postal_code_regexp: \A\d{4}\s?[A-Z]{2}\z
 'NO':
   currency_code: NOK
 NP:
@@ -421,7 +421,7 @@ PL:
   eu_member: true
   currency_code: PLN
   postal_code_format: "NN-NNN, NNNNN"
-  postal_code_regexp: !ruby/regexp '/\A\d{2}-?\d{3}\z/'
+  postal_code_regexp: \A\d{2}-?\d{3}\z
 PM:
   currency_code: EUR
 PN:
@@ -434,7 +434,7 @@ PT:
   eu_member: true
   currency_code: EUR
   postal_code_format: "NNNN-NNN, NNNNNNN"
-  postal_code_regexp: !ruby/regexp '/\A\d{4}(-?\d{3})?\z/'
+  postal_code_regexp: \A\d{4}(-?\d{3})?\z
 PW:
   currency_code: USD
 PY:
@@ -447,7 +447,7 @@ RO:
   eu_member: true
   currency_code: RON
   postal_code_format: NNNNNN
-  postal_code_regexp: !ruby/regexp '/\A\d{6}\z/'
+  postal_code_regexp: \A\d{6}\z
 RS:
   currency_code: RSD
 RU:
@@ -466,7 +466,7 @@ SE:
   eu_member: true
   currency_code: SEK
   postal_code_format: NNNNN
-  postal_code_regexp: !ruby/regexp '/\A\d{5}\z/'
+  postal_code_regexp: \A\d{5}\z
 SG:
   currency_code: SGD
 SH:
@@ -475,14 +475,14 @@ SI:
   eu_member: true
   currency_code: EUR
   postal_code_format: NNNN
-  postal_code_regexp: !ruby/regexp '/\A\d{4}\z/'
+  postal_code_regexp: \A\d{4}\z
 SJ:
   currency_code: NOK
 SK:
   eu_member: true
   currency_code: EUR
   postal_code_format: NNNNN
-  postal_code_regexp: !ruby/regexp '/\A[089]\d{4}\z/'
+  postal_code_regexp: \A[089]\d{4}\z
 SL:
   currency_code: SLL
 SM:
