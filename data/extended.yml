@@ -184,6 +184,8 @@ FR:
 GA:
   currency_code: XAF
 GB:
+  postal_code_format: AANNNAA
+  postal_code_regexp: \A[A-Z]{1,2}\d{1,3}[A-Z]{1,2}(\d[A-Z]{2})?\z
   currency_code: GBP
 GD:
   currency_code: XCD
