@@ -1,6 +1,8 @@
 # ISO3166::Countries
 
-This gem is heavily inspired by [hexorx/countries](https://github.com/hexorx/countries). Due to lack of maintenance of the original gem, we decided to make our own gem based on iso.org data.
+~~This gem is heavily inspired by [hexorx/countries](https://github.com/hexorx/countries). Due to lack of maintenance of the original gem, we decided to make our own gem based on iso.org data.~~
+
+We've decided to stop maintaining this gem and move back to https://github.com/countries/countries/.
 
 ## Installation
 
